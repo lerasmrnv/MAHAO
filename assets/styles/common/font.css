@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "TT Commons";
+    src: url("/assets/fonts/TTCommons-Medium.ttf") format("truetype");
+    font-style: normal; 
+font-weight: normal; 
+}
+
+.text {
+    font-family: 'TT Commons';
+}
+
+.textBold {
+    font-weight: 600;
+}

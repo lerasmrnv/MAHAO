@@ -1,0 +1,62 @@
+.header__nav {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 35px;
+    padding-right: 135px;
+    padding-left: 135px;
+}
+
+.header__nav-logo {
+    height: 28px;
+    width: 139px;
+}
+
+.header__nav-list {
+    display: flex;
+    flex-direction: row;
+
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    gap: 60px;
+
+    list-style: none;   
+}
+
+.header__nav-link {
+    text-decoration: none;
+}
+
+.header__nav-link:hover {
+    color: #7E779A;
+    ;
+}
+
+.header__nav-contact {
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+.header__nav-phone__img,
+.header__nav-email__img {
+    margin-left: 40px;
+    padding-right: 5px;
+    height: 15px;
+    width: 15px;
+}
+
+.header__nav-link,
+.header__nav-phone__text,
+.header__nav-email__text {
+    color: white;
+
+    font-size: 17px;
+}
+
+

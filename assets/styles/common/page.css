@@ -1,0 +1,11 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}

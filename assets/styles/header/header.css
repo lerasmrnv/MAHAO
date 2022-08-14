@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    flex-direction: column;
+
+    height: 700px;
+    width: 1440px;
+    background-color: #040B2A;
+    background-image: url('/assets/images/header/background.png');
+}
+

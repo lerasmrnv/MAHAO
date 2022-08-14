@@ -17,6 +17,7 @@
 /* Стили main */
 @import './main/aboutUs.css';
 @import './main/servises.css';
+@import './main/publications.css';
 
 /* Основной блок */
 @import "./main/main/main__main.css";

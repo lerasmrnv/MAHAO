@@ -1,0 +1,10 @@
+.slider__item {
+    display: flex;
+    flex-direction: column;
+
+    width: 370px;
+    height: 504px;
+    border-radius: 9px;
+
+    background-color: #F6F4F9;
+}

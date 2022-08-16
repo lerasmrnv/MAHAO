@@ -3,22 +3,19 @@
 @import "./common/font.css";
 @import "./common/page.css";
 
-
-
 /* Стили header */
 @import './header/header.css';
 @import './header/nav.css';
 @import "./header/banner.css";
 
 
-/* Стили навигации */
-@import './header/nav/header__nav.css';
-
 /* Стили main */
 @import './main/aboutUs.css';
 @import './main/servises.css';
 @import './main/publications.css';
 
-/* Основной блок */
-@import "./main/main/main__main.css";
-
+/* Стили footer */
+@import './footer/footer.css';
+@import './footer/footerInform.css';
+@import './footer/footerForm.css';
+@import './footer/footerEnd.css';

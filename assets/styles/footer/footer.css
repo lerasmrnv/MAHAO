@@ -1,0 +1,16 @@
+.footer {
+    height: 850px;
+    width: 1437px;
+    background-color: #090B32;
+    background-image: url('/assets/images/footer/background.png');
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 113px;
+    margin-right: 131px;
+    margin-left: 136px;
+}
+

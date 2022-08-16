@@ -1,0 +1,136 @@
+.footer-container__form {
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-container__form-name {
+    padding-left: 22px;
+    width: 648px;
+    height: 52px;
+    background: rgba(7, 11, 47, 0.07);
+    border: 2px solid #473E69;
+    border-radius: 4px;
+    color: white;
+    
+    font-size: 16px;
+}
+
+.footer-container__form-email {
+    padding-left: 22px;
+    width: 648px;
+    height: 52px;
+    background: rgba(7, 11, 47, 0.07);
+    border: 2px solid #473E69;
+    border-radius: 4px;
+    color: white;
+
+    font-size: 16px;
+}
+
+.footer-container__form__label-email {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #807D8D;
+}
+
+.footer-container__form-tasks {
+    margin-top: 28px;
+    padding-top: 19px;
+    padding-left: 22px;
+    width: 670px;
+    height: 163px;
+    
+    border: 2px solid #473E69;
+    border-radius: 4px;
+
+    background: rgba(7, 11, 47, 0.07);
+    color: white;
+}
+
+.footer-container__form__checkbox {
+    margin-top: 22px;
+}
+
+.footer-container__form__label input {
+    display: none;
+}
+
+
+
+.footer-container__form__label span {
+    margin-right: 14px;
+    width: 22px;
+    height: 22px;
+    background: rgba(7, 11, 47, 0.07);
+    border: 2px solid #473E69;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+
+
+    color: white;
+}
+[type=checkbox]:checked + span:before {/* <-- ставим иконку, когда чекбокс включен  */
+    content: '\2713';
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    font-size: 18px;
+    color:white;
+}
+
+.footer-container__form__label {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+}
+
+.footer-container__form-submit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: 53px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #7E779A;
+}
+.footer-container__form-personalData a {
+    color: #7E779A;
+}
+
+.footer-container__form__button-submit {
+    margin-left: 22px;
+    width: 226px;
+    height: 56px;
+    padding-top: 3px;
+    border-radius: 90px;
+    border: 2px solid #3F0F72;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    }
+
+.footer-container__form__button-submit:hover {
+    box-shadow: 4px 4px 8px 0px rgba(109, 100, 100, 0.2);
+}
+
+.footer-container__form__button-submit:active {
+    background-color: #3F0F72;
+}

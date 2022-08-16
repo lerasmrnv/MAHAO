@@ -1,0 +1,31 @@
+.footer-container__end{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 55px 131px auto 136px;
+    padding-top: 25px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.footer-container__end a {
+    text-decoration: none;
+    color: #7E779A;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.footer-container__end a:hover {
+    color: #FFFFFF;
+}
+
+.footer-container__icons {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-right: 100px;
+}
+
+.footer-container__icons img:hover {
+    background-color: #FFFFFF;
+}

@@ -9,3 +9,10 @@ p {
     margin-block-start: 0;
     margin-block-end: 0;
 }
+
+/* Для маленького экрана */
+@media screen and (max-width: 414px) {
+    .page {
+        width: 414px;
+    }
+}

@@ -9,9 +9,7 @@
 /* Часть с названием */
 .header__banner-title {
     display: flex;
-    flex-direction: column;
-    
-    
+    flex-direction: column;    
     align-items: flex-start;
 }
 
@@ -74,4 +72,53 @@
 
 .header__banner-partners-img2 {
     height: 24px;
+}
+
+/* Для маленького экрана */
+@media screen and (max-width: 415px) {
+    .header__banner {
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    .header__banner-text {
+        font-size: 12px;
+    }
+    .header__banner-titleText {
+        padding-top: 7px;
+        padding-bottom: 10px;
+    
+        font-size: 16px;
+    }
+
+    .header__banner-button {
+        width: 130px;
+        height: 20px;
+    
+        border-radius: 70px;
+    }
+    .header__banner-button-text {
+        font-size: 10px;
+    }
+
+    .header__banner-partners {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    
+    .header__banner-partners-text {
+        padding-right: 10px;
+    
+        font-size: 10px;
+    }
+    
+    .header__banner-partners-img1 {
+        padding-right: 5px;
+        
+        height: 10px;
+    }
+    
+    .header__banner-partners-img2 {
+        height: 12px;
+    }
 }

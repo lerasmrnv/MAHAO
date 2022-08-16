@@ -8,3 +8,17 @@
     background-image: url('/assets/images/header/background.png');
 }
 
+
+/* Для маленького экрана */
+@media screen and (max-width: 415px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    
+        height: 200px;
+        width: 414px;
+        background-color: #040B2A;
+        background-image: url('/assets/images/header/background.png');
+        background-size: cover;
+    }
+}

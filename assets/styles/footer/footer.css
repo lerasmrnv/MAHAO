@@ -14,3 +14,19 @@
     margin-left: 136px;
 }
 
+
+/* Для маленького экрана */
+@media screen and (max-width: 415px) {
+    .footer {
+        height: auto;
+        width: 414px;
+
+        background-color: #090B32;
+        background-image: none;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+}

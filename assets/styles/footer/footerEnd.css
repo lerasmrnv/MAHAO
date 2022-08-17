@@ -29,3 +29,32 @@
 .footer-container__icons img:hover {
     background-color: #FFFFFF;
 }
+
+@media screen and (max-width: 415px) {
+    .footer-container__end{
+        flex-direction: column;
+        align-items: center;
+
+    
+        margin: 10px;
+        padding-top: 10px;
+        border-top: 1px solid #FFFFFF;
+    }
+    
+    .footer-container__end a {
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    
+    .footer-container__icons {
+        margin-right: 0;
+        margin-bottom: 3px;
+        gap: 10px;
+    }
+    
+    .footer-container__icons img:hover {
+        background-color: #FFFFFF;
+    }
+
+}

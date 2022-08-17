@@ -1,8 +1,8 @@
 .footer-container__form {
     display: flex;
     flex-direction: column;
-    
 }
+
 .footer-container__form-name {
     padding-left: 22px;
     width: 648px;
@@ -133,4 +133,85 @@
 
 .footer-container__form__button-submit:active {
     background-color: #3F0F72;
+}
+
+@media screen and (max-width: 415px) {
+
+    .footer-container__form-name {
+        padding-left: 7px;
+        width: 370px;
+        height: 30px;
+
+        border: 1px solid #473E69;
+
+        font-size: 14px;
+    }
+    
+    .footer-container__form-email {
+        padding-left: 7px;
+        width: 370px;
+        height: 30px;
+        
+        border: 1px solid #473E69;
+
+        font-size: 14px;
+    }
+
+    .footer-container__form__label-email {
+        margin-top: 5px;
+    }
+    
+    .footer-container__form-tasks {
+        margin-top: 7px;
+        padding-top: 7px;
+        padding-left: 7px;
+        width: 370px;
+        height: 100px;
+        
+        border: 1px solid #473E69;
+    }
+    
+    .footer-container__form__checkbox {
+        margin-top: 12px;
+    }
+        
+    .footer-container__form__label span {
+        margin-right: 5px;
+        
+        width: 12px;
+        height: 12px;
+        border: 1px solid #473E69;
+    }
+    [type=checkbox]:checked + span:before {
+        content: '\2713';
+        position: absolute;
+        top: 0px;
+        left: 1px;
+        font-size: 14px;
+        color:white;
+    }
+    
+    .footer-container__form__label {
+        font-weight: 100;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    
+    .footer-container__form-submit {
+        margin-top: 10px;
+    
+        font-weight: 200;
+    }
+    .footer-container__form__button-submit {
+        margin-left: 5px;
+        width: 100px;
+        height: 40px;
+        padding-top: 3px;
+        border: 1px solid #3F0F72;
+
+        font-weight: 200;
+        font-size: 10px;
+        line-height: 12px;
+        }
+    
 }

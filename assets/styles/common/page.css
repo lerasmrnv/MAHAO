@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .page {
     display: flex;
     flex-direction: column;

@@ -276,8 +276,8 @@
                     placeholder="manao@gmail.com"
                     pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$" required />
 
-                <textarea placeholder="Описание задач" name="tasks" id="tasks"
-                    class="footer-container__form-tasks"></textarea>
+                <textarea placeholder="Описание задач" name="tasks" id="tasks" class="footer-container__form-tasks"
+                    required></textarea>
 
                 <div class="footer-container__form__checkbox">
                     <label for="consultation" class="footer-container__form__label">
@@ -309,8 +309,13 @@
                     <button type="button" class="footer-container__form__button-submit  btnClick"
                         id="btnClick">Отправить
                         заявку</button>
+
+                </div>
+                <div class="modal-window">
+                    <p>Спасибо, ваша заявка принята</p>
                 </div>
             </form>
+
         </div>
 
         <div class="footer-container__end">

@@ -44,6 +44,5 @@ function displayWith(){
 }
 
 displayWith ();
-console.log (widthScreen);
 
 

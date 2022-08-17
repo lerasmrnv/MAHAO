@@ -2,6 +2,7 @@
 
 let btn = document.querySelector('.btnClick');
 let errors = [];
+let modalWindow = document.querySelector('.modal-window');
 
 function checkValidity(input) {
     let validity = input.validity;
@@ -23,7 +24,6 @@ function checkAll() {
     for (input of inputs) {
         checkValidity(input);
     }
-
 }
 
 btn.addEventListener("click", function (event) {
@@ -42,6 +42,9 @@ btn.addEventListener("click", function (event) {
         estimation : document.getElementById ('estimation').value
     }
 
+    modalWindow.style.display = 'block';
+
+
     fetch("https://httpbin.org/post",
     {
         method: 'POST',
@@ -56,13 +59,20 @@ btn.addEventListener("click", function (event) {
     })
     .catch(error => console.log(error));
 
+
     document.querySelectorAll("input").forEach (function (input) {
         input.value = '';
-    })
+    });
+
+    document.querySelectorAll("textarea").forEach (function (input) {
+        input.value = '';  
+    });
+
+    console.log(user);
 }
+
 else {
     alert('Ошибка при отправке данных, заполните поле');
 }
-
 
 });

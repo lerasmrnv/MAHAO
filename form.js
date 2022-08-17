@@ -24,14 +24,13 @@ function checkAll() {
         checkValidity(input);
     }
 
-    alert(errors);
-    
 }
 
 btn.addEventListener("click", function (event) {
     event.preventDefault();
 
     checkAll();
+
     if(errors.length === 0){ 
         
     let user = {
@@ -56,6 +55,13 @@ btn.addEventListener("click", function (event) {
         console.log(user);
     })
     .catch(error => console.log(error));
+
+    document.querySelectorAll("input").forEach (function (input) {
+        input.value = '';
+    })
+}
+else {
+    alert('Ошибка при отправке данных, заполните поле');
 }
 
 
